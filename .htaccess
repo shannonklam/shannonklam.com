@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^shannonklam\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shannonklam\.com$
+RewriteRule ^wedding$ "https\:\/\/drive\.google\.com\/drive\/folders\/19CxW0edavpZRw5HO1T79nzElh5KqAALy\?usp\=sharing" [R=301,L]
