@@ -298,6 +298,9 @@ button {
 		color: #fff;
 		text-align: center;
 	}
+	&.readme {
+		overflow: hidden;
+	}
 	&.readme .heading {
 		margin-left: 0;
 		padding-top: 120px;
